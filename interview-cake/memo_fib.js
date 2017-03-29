@@ -1,6 +1,10 @@
 // Returns the nth number in the fibonacci sequence with a starting
 // point of 1
 
+// Time Complexity: O(n)
+// Space Complexity: O(n)
+
+
 function memoFib(n) {
   let storedFibs = {};
   if (n < 0) {
